@@ -1,11 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Coffee Shop</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coffee & Resto</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
-<body style="text-align:center;font-family:Arial;background:#111;color:white;">
-  <h1>COFFEE SHOP ☕</h1>
-  <p>Selamat datang di website kami</p>
-  <a href="https://wa.me/6280000000000" style="color:lime;">Order WhatsApp</a>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <div class="logo">☕ CoffeeResto</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Best Coffee & Food Experience</h1>
+      <p>Fresh coffee, delicious meals, cozy place</p>
+      <a href="#menu" class="btn">View Menu</a>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section id="menu" class="section">
+    <h2>Our Menu</h2>
+    <div class="grid">
+      <div class="card">☕ Espresso - $2</div>
+      <div class="card">☕ Cappuccino - $3</div>
+      <div class="card">🍔 Burger - $5</div>
+      <div class="card">🍝 Pasta - $6</div>
+      <div class="card">🍰 Cake - $4</div>
+      <div class="card">🥗 Salad - $4</div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section dark">
+    <h2>About Us</h2>
+    <p>
+      CoffeeResto adalah tempat terbaik untuk menikmati kopi premium dan makanan berkualitas
+      dengan suasana nyaman untuk kerja atau santai.
+    </p>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="section">
+    <h2>Gallery</h2>
+    <div class="grid">
+      <div class="img-box"></div>
+      <div class="img-box"></div>
+      <div class="img-box"></div>
+      <div class="img-box"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section dark">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 CoffeeResto. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
