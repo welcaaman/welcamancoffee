@@ -1,89 +1,117 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Coffee Table</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Brew & Bean Coffee</title>
 
-<style>
-body{
-font-family:Arial,sans-serif;
-margin:0;
-padding:0;
-text-align:center;
-}
-
-.hero{
-background:#111;
-color:white;
-padding:80px 20px;
-}
-
-.hero h1{
-font-size:48px;
-}
-
-.btn{
-display:inline-block;
-background:#25D366;
-color:white;
-padding:12px 24px;
-text-decoration:none;
-border-radius:8px;
-margin-top:20px;
-}
-
-.section{
-padding:50px 20px;
-}
-
-.menu{
-max-width:600px;
-margin:auto;
-text-align:left;
-}
-
-footer{
-background:#111;
-color:white;
-padding:20px;
-}
-</style>
-
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-<div class="hero">
-<h1>COFFEE TABLE</h1>
-<p>Fresh Coffee • Good Food • Great Moments</p>
+<!-- NAVBAR -->
+<header class="nav">
+  <div class="logo">☕ Brew&Bean</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-<a class="btn"
-href="https://wa.me/67000000000">
-Order via WhatsApp
-</a>
-</div>
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-content">
+    <h1>Premium Coffee Experience</h1>
+    <p>Fresh roasted beans • Cozy atmosphere • Perfect taste</p>
+    <a href="#menu" class="btn">Explore Menu</a>
+  </div>
+</section>
 
-<div class="section">
-<h2>Our Menu</h2>
+<!-- FEATURES -->
+<section class="features">
+  <div class="feature">☕ Fresh Coffee</div>
+  <div class="feature">🍰 Homemade Cake</div>
+  <div class="feature">📶 Free WiFi</div>
+  <div class="feature">🪑 Cozy Space</div>
+</section>
 
-<div class="menu">
-<p>☕ Espresso - $2</p>
-<p>☕ Cappuccino - $3</p>
-<p>☕ Latte - $3.5</p>
-<p>🍰 Cheesecake - $4</p>
-<p>🥪 Sandwich - $5</p>
-</div>
+<!-- MENU -->
+<section id="menu" class="section">
+  <h2>Our Signature Menu</h2>
 
-</div>
+  <div class="menu-grid">
+    <div class="card">
+      <h3>Espresso</h3>
+      <p>Strong & pure coffee shot</p>
+      <span>$2.00</span>
+    </div>
 
-<div class="section">
-<h2>Location</h2>
-<p>Dili, Timor-Leste</p>
-</div>
+    <div class="card">
+      <h3>Cappuccino</h3>
+      <p>Milk foam & rich espresso</p>
+      <span>$3.50</span>
+    </div>
 
+    <div class="card">
+      <h3>Latte</h3>
+      <p>Smooth & creamy taste</p>
+      <span>$3.50</span>
+    </div>
+
+    <div class="card">
+      <h3>Chocolate Cake</h3>
+      <p>Soft and rich chocolate</p>
+      <span>$4.00</span>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+  <div class="about-box">
+    <h2>About Us</h2>
+    <p>
+      Brew & Bean is a modern coffee shop focused on premium quality,
+      relaxing atmosphere, and handcrafted beverages made with love.
+    </p>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="section">
+  <h2>Gallery</h2>
+
+  <div class="gallery">
+    <div class="img"></div>
+    <div class="img"></div>
+    <div class="img"></div>
+    <div class="img"></div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
+
+  <form>
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea placeholder="Your Message"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<!-- FOOTER -->
 <footer>
-© 2026 Coffee Table
+  <p>© 2026 Brew & Bean Coffee. All rights reserved.</p>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
