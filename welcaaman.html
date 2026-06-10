@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Coffee Shop</title>
+</head>
+<body style="text-align:center;font-family:Arial;background:#111;color:white;">
+  <h1>COFFEE SHOP ☕</h1>
+  <p>Selamat datang di website kami</p>
+  <a href="https://wa.me/6280000000000" style="color:lime;">Order WhatsApp</a>
+</body>
+</html>
